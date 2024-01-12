@@ -11,6 +11,6 @@ def divide_numbers(x, y):
         print("An error occurred:", e)
 
 # Test the divide_numbers function with potential errors
-divide_numbers(10, 2)  # No error, result is printed
+divide_numbers(10, 1)  # No error, result is printed
 divide_numbers(10, 0)  # ZeroDivisionError, error message is printed
 divide_numbers(10, '2')  # TypeError, error message is printed
