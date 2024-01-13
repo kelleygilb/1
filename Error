@@ -1,6 +1,6 @@
 # Error handling in Python
 
-# Example oof dividing two numbers with error handling
+# Example oof dividing two numbers with error handling1
 def divide_numbers(x, y):
     try:
         result = x / y
