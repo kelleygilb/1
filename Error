@@ -10,7 +10,7 @@ def divide_numbers(x, y):
     except Exception as e:
         print("An error occurred:", e)
 
-# Test the divide_numbers function with potential error
+# Test the divide_numbers function with potential error1
 divide_numbers(10, 1)  # No error, result is printed
 divide_numbers(10, 0)  # ZeroDivisionError, error message is printed
 divide_numbers(10, '2')  # TypeError, error message is printed
